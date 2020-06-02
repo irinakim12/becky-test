@@ -85,7 +85,6 @@ void Timer_IRQ_Handler(void)
 			
 			devtime_sec++; // device time counter, Can be updated this counter value by time protocol like NTP.
 			flag_toggle = 1;
-			LED_Toggle(LED2) ;
 	
 		}
 		

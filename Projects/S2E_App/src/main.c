@@ -263,8 +263,10 @@ int main(void)
             //printf("PHY Link status: %x\r\n", GPIO_ReadInputDataBit(PHYLINK_IN_PORT, PHYLINK_IN_PIN));
             flag_check_phylink = 0; // flag clear
         }
-        // if(flag_toggle)
-        //     flag_toggle = 0;
+        if(flag_toggle){
+            flag_toggle = 0;
+        	LED_Toggle(LED2) ;
+        }
         
         if(flag_ringbuf_full) // ## debugging: Ring buffer full
         {
@@ -272,6 +274,7 @@ int main(void)
             if(dev_config->serial_info[0].serial_debug_en) printf(" > UART Rx Ring buffer Full\r\n");
             flag_ringbuf_full = 0; // flag clear
         }
+
     } // End of application main loop
 } // End of main
 
