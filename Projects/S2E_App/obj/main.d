@@ -1,7 +1,7 @@
 .\obj\main.o: src\main.c
-.\obj\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\obj\main.o: src\common.h
-.\obj\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\obj\main.o: src\W7500x_board.h
 .\obj\main.o: ..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_gpio.h
 .\obj\main.o: ..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h

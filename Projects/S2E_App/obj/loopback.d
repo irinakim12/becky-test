@@ -1,7 +1,7 @@
 .\obj\loopback.o: ..\..\ioLibrary\Application\loopback\loopback.c
-.\obj\loopback.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\loopback.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\obj\loopback.o: ..\..\ioLibrary\Application\loopback\loopback.h
-.\obj\loopback.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\loopback.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\obj\loopback.o: ..\..\ioLibrary\Ethernet\socket.h
 .\obj\loopback.o: ..\..\ioLibrary\Ethernet\wizchip_conf.h
 .\obj\loopback.o: ..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h

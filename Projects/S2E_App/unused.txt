@@ -1,4 +1,4 @@
-;#<FEEDBACK># ARM Linker, 5060750: Last Updated: Tue Jun 02 11:13:06 2020
+;#<FEEDBACK># ARM Linker, 5060750: Last Updated: Tue Jun 02 13:07:33 2020
 ;VERSION 0.2
 ;FILE configdata.o
 Mac_Conf <= IW 0
@@ -425,7 +425,6 @@ __asm___12_W7500x_adc_c_1019ec75____REVSH <= IW 0
 LED_Init <= IW 0
 LED_Off <= IW 0
 LED_On <= IW 0
-LED_Toggle <= USED 0
 LED_Toggle <= IW 0
 Supervisory_IC_Init <= IW 0
 W7500x_Board_Init <= IW 0

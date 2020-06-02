@@ -1,7 +1,7 @@
 .\obj\eepromhandler.o: src\PlatformHandler\eepromHandler.c
-.\obj\eepromhandler.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\obj\eepromhandler.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\obj\eepromhandler.o: src\PlatformHandler\eepromHandler.h
-.\obj\eepromhandler.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\eepromhandler.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\obj\eepromhandler.o: .\src\W7500x_board.h
 .\obj\eepromhandler.o: .\src\common.h
 .\obj\eepromhandler.o: src\PlatformHandler\i2cHandler.h

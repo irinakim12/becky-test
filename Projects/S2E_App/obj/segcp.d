@@ -1,12 +1,12 @@
 .\obj\segcp.o: src\Configuration\segcp.c
-.\obj\segcp.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-.\obj\segcp.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-.\obj\segcp.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
-.\obj\segcp.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\obj\segcp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\segcp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\obj\segcp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+.\obj\segcp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\obj\segcp.o: ..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_gpio.h
 .\obj\segcp.o: ..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h
 .\obj\segcp.o: ..\..\Libraries\CMSIS\Include\core_cm0.h
-.\obj\segcp.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\segcp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\obj\segcp.o: ..\..\Libraries\CMSIS\Include\core_cmInstr.h
 .\obj\segcp.o: ..\..\Libraries\CMSIS\Include\core_cmFunc.h
 .\obj\segcp.o: ..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\system_W7500x.h

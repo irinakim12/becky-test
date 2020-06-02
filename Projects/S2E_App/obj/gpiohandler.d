@@ -1,7 +1,7 @@
 .\obj\gpiohandler.o: src\PlatformHandler\gpioHandler.c
 .\obj\gpiohandler.o: ..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h
 .\obj\gpiohandler.o: ..\..\Libraries\CMSIS\Include\core_cm0.h
-.\obj\gpiohandler.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\gpiohandler.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\obj\gpiohandler.o: ..\..\Libraries\CMSIS\Include\core_cmInstr.h
 .\obj\gpiohandler.o: ..\..\Libraries\CMSIS\Include\core_cmFunc.h
 .\obj\gpiohandler.o: ..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\system_W7500x.h
@@ -13,4 +13,4 @@
 .\obj\gpiohandler.o: ..\..\ioLibrary\Ethernet\wizchip_conf.h
 .\obj\gpiohandler.o: src\PlatformHandler\gpioHandler.h
 .\obj\gpiohandler.o: ..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_adc.h
-.\obj\gpiohandler.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\gpiohandler.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

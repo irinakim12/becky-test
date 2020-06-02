@@ -106,7 +106,7 @@ uint8_t prev_triggercode_idx = 0;
 // Shared buffer declaration
 uint8_t g_send_buf[DATA_BUF_SIZE];
 uint8_t g_recv_buf[DATA_BUF_SIZE];
-extern uint8_t flag_toggle = 0;
+
 
 /**
   * @brief  Main program

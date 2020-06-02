@@ -1,8 +1,8 @@
 .\obj\configdata.o: src\Configuration\ConfigData.c
-.\obj\configdata.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-.\obj\configdata.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\obj\configdata.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\configdata.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\obj\configdata.o: .\src\common.h
-.\obj\configdata.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\configdata.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\obj\configdata.o: ..\..\Libraries\W7500x_stdPeriph_Driver\inc\W7500x_wztoe.h
 .\obj\configdata.o: ..\..\Libraries\CMSIS\Device\WIZnet\W7500\Include\W7500x.h
 .\obj\configdata.o: ..\..\Libraries\CMSIS\Include\core_cm0.h

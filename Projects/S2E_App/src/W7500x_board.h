@@ -332,7 +332,7 @@
 	#define LED2_PIN			GPIO_Pin_7
 	#define LED2_GPIO_PORT		GPIOA
 	#define LED2_GPIO_PAD		PAD_PA
-	#define LED3_GPIO_PAD_AF	PAD_AF1
+	#define LED2_GPIO_PAD_AF	PAD_AF1
 
 	#define LED3_PIN			GPIO_Pin_9
 	#define LED3_GPIO_PORT		GPIOC
