@@ -781,8 +781,11 @@ void proc_SEG_tcp_mixed(uint8_t sock)
 			break;
 		
 		case SOCK_CLOSE_WAIT:
+			printf("dis1\r\n");
 			while(getSn_RX_RSR(sock) || e2u_size) ether_to_uart(sock); // receive remaining packets
+			printf("dis2\r\n");
 			disconnect(sock);
+			printf("dis3\r\n");
 			break;
 		
 		case SOCK_FIN_WAIT:
@@ -1094,19 +1097,22 @@ void ether_to_uart(uint8_t sock)
 		{
 			if(isXON == SEG_ENABLE)
 			{
+				printf("XON1\r\n");
 				if((serial->serial_debug_en == SEG_DEBUG_E2S) || (serial->serial_debug_en == SEG_DEBUG_ALL))
 				{
 					debugSerial_dataTransfer(g_recv_buf, e2u_size, SEG_DEBUG_E2S);
 				}
 				
+				
 				for(i = 0; i < e2u_size; i++) uart_putc(SEG_DATA_UART, g_recv_buf[i]);
 				add_data_transfer_bytecount(SEG_ETHER_TX, e2u_size);
 				e2u_size = 0;
 			}
-			//else
-			//{
-			//	;//XOFF!!
-			//}
+			else
+			{
+				printf("XOFF\r\n");
+			}
+\
 		}
 		else
 		{

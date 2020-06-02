@@ -317,7 +317,7 @@
 	#define LED1_GPIO_PORT		GPIOC
 	#define LED1_GPIO_PAD		PAD_PC
 	#define LED1_GPIO_PAD_AF	PAD_AF1		// PAD Config - LED used 2nd Function
-
+#if 0
 	#define LED2_PIN			GPIO_Pin_9
 	#define LED2_GPIO_PORT		GPIOC
 	#define LED2_GPIO_PAD		PAD_PC
@@ -327,7 +327,19 @@
 	#define LED3_GPIO_PORT		GPIOA
 	#define LED3_GPIO_PAD		PAD_PA
 	#define LED3_GPIO_PAD_AF	PAD_AF1
-	
+#else
+
+	#define LED2_PIN			GPIO_Pin_7
+	#define LED2_GPIO_PORT		GPIOA
+	#define LED2_GPIO_PAD		PAD_PA
+	#define LED3_GPIO_PAD_AF	PAD_AF1
+
+	#define LED3_PIN			GPIO_Pin_9
+	#define LED3_GPIO_PORT		GPIOC
+	#define LED3_GPIO_PAD		PAD_PC
+	#define LED3_GPIO_PAD_AF	PAD_AF1
+
+#endif
 #elif (DEVICE_BOARD_NAME == WIZwiki_W7500ECO)
 
 	#define LED1_PIN			GPIO_Pin_1
@@ -400,7 +412,7 @@
 	extern volatile uint16_t phylink_check_time_msec;
 	extern uint8_t flag_check_phylink;
 	extern uint8_t flag_hw_trig_enable;
-	
+	extern uint8_t flag_toggle;
 	void W7500x_Board_Init(void);
 	void Supervisory_IC_Init(void);
 	
