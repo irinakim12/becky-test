@@ -1348,10 +1348,13 @@ uint8_t check_serial_store_permitted(uint8_t ch)
 	
 	// Software flow control: Check the XON/XOFF start/stop commands
 	// [Peer] -> [WIZnet Device]
+	// Recv XOnN
+	/*
 	if((ret == SEG_ENABLE) && (serial->flow_control == flow_xon_xoff))
 	{
-		if(ch == UART_XON)
+		
 		{
+		if(ch == UART_XON)
 			isXON = SEG_ENABLE;
 			ret = SEG_DISABLE; 
 		}
@@ -1361,7 +1364,7 @@ uint8_t check_serial_store_permitted(uint8_t ch)
 			ret = SEG_DISABLE;
 		}
 	}
-	
+	*/
 	return ret;
 }
 
