@@ -856,7 +856,15 @@ void uart_to_ether(uint8_t sock)
 #endif
 	
 	// UART ring buffer -> user's buffer
-	len = get_serial_data();
+	if(sent_len == 0){
+		len = get_serial_data();
+		printf("get_serial_data = %d\r\n",len);
+	}
+	else
+	{
+		printf("len = %d\r\n",sent_len);
+	}
+	
 	
 	if(len > 0)
 	{

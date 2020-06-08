@@ -360,7 +360,11 @@ static void set_WZTOE_NetTimeout(void)
     /* Set TCP Timeout: retry count / timeout val */
     // W7500x Retransmission retry count default: [8], Timeout val default: [2000]
     net_timeout.retry_cnt = dev_config->options.tcp_rcr_val;
+#if 0
     net_timeout.time_100us = 2000;
+#else
+    net_timeout.time_100us = 5000;
+#endif
     wizchip_settimeout(&net_timeout);
     
 #ifdef _MAIN_DEBUG_
